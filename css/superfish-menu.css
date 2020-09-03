@@ -1,0 +1,148 @@
+nav {padding:0px 100px 0px 0px;  float:right; z-index:20; position:relative;}
+.sf-menu li {float:left;
+	position:	relative;
+	font-size:14px;
+	line-height:0px;
+	//background:#313131;
+	width:100px;
+	margin-right:1px;
+	text-align:center;
+	font-family:"Tahoma", Times, serif;
+	
+	
+	
+	
+	}
+.sf-menu a {display:block;
+	position:		relative;	
+	color:#fff;
+	text-decoration:none; 
+	padding:8px 0px 0px 0px;
+	
+	}
+	.sf-menu li li {
+	padding:0;
+	font-size:18px;
+	text-align:left;
+	line-height:30px;
+	padding:0 0 0 0px;
+	text-transform:none;
+	background:#1e1e1e;
+	margin-bottom:1px;
+	
+}
+	.sf-menu li li a {
+		padding:7px 0 8px 24px;
+		display:inline-block;
+		text-decoration:none;
+		width:151px;
+		color:#f1f1f1;
+		
+		
+	}
+	
+	.sf-menu li li li {
+		line-height:30px;
+		background:none;
+		padding:0 0 0 0;
+		font-size:18px;		
+		margin-left:0px;
+		width:170px;
+		margin-bottom:1px;
+		
+	}
+		.sf-menu li li li a {
+			
+			color:#fff;
+			padding:7px 0 7px 20px;
+			display:block;
+			width:154px;
+			background:#555555;
+		}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			175px; 
+	display:none;
+	padding:11px 0px 13px 0px;
+	height:75px;
+	
+}
+.sf-menu ul ul {
+	position:		absolute;
+	top:			-999em;
+	display:none;
+	width:174px;
+	background:none;
+
+}
+
+	
+.sf-menu ul li {
+	width:			100%;
+	
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			63px; /* match top ul list item height */
+	z-index:		99;
+	
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+	
+	
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			176px; /* match ul width */
+	top:			-10px;
+	
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+
+
+.sf-menu li.sfHover > a,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a.active {
+	//background:#000;
+	outline:		0;
+	color:#FFFF99;
+}
+	.sf-menu li li.sfHover > a,
+	.sf-menu li li a:focus, .sf-menu li li a:hover, .sf-menu li li a.active {
+		background:#0c0c0c;
+
+	}
+		.sf-menu li li li.sfHover > a,
+		.sf-menu li li li a:focus, .sf-menu li li li a:hover, .sf-menu li li li a.active {
+			color:#fff;
+		}
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.html') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+	
+}
+.sf-menu > li.menu-activ > a:hover   {background:#313131; color:#fff;}
+.sf-menu > li.menu-activ.sfHover > a {background:#313131; color:#fff;}
