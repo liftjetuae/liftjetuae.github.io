@@ -1,11 +1,10 @@
 /*
  *
- * Template Name: Andia
- * Template URI: http://azmind.com
- * Description: Andia - Responsive Agency Template
+ * Template Name: pn
+ * Template URI: pn
+ * Description: pn
  * Author: Anli Zaimi
- * Author URI: http://azmind.com
- *
+ * Author URI: pn
  */
 #rol {
     padding-top: 5px;
@@ -147,7 +146,7 @@ strong { font-weight: bold; }
     width: 280px;
     height: 63px;
     padding: 15px 0;
-    background: url(../img/logo.png) 20px center no-repeat;
+    background: url(/img/logo.png) 20px center no-repeat;
 }
 
 .header ul.nav {
