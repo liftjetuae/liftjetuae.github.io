@@ -143,10 +143,10 @@ strong { font-weight: bold; }
 .header a.brand {
     display: inline-block;
     text-indent: -9999px;
-    width: 450px;
+    width: 460px;
     height: 73px;
     padding: 15px 0;
-    background: url(/img/logo.jpg) 20px center no-repeat;
+    background: url(/img/ljmlogo.png) 20px center no-repeat;
     
     
 }
