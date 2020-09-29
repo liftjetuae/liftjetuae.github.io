@@ -837,7 +837,7 @@ footer .social a:hover { background-position: left top; }
 .contact-us form input, .contact-us form textarea {
     width: 40%;
     height: 24px;
-    border: 1px solid #ddd;
+    border: 1px solid #4b0707;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -846,7 +846,7 @@ footer .social a:hover { background-position: left top; }
     box-shadow: none;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     color: #888;
-    font-size: 13px;
+    font-size: 18px;
     font-style: italic;
 }
 
