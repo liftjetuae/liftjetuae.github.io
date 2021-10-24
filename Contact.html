@@ -449,11 +449,11 @@
           $("#submit-form").submit((e)=>{
           e.preventDefault()
           $.ajax({
-          url:"https://script.google.com/macros/s/AKfycby3-YGOCyljWq_e5xndg8OOpg55YJqX9K6w9DbM/exec",
+          url:"https://script.google.com/macros/s/AKfycbyvD3XjUsgl9mYu-3TRcFoEKnGvLBjSF75DMeWvNyYLqOzo8hcL_PPRz8fJvpwWxRmF/exec",
           data:$("#submit-form").serialize(),
           method:"post",
           success:function (response){
-          alert("Form submitted successfully")
+          alert("our team will contact you shortly")
           window.location.reload()
           //window.location.href="https://google.com"
           },
